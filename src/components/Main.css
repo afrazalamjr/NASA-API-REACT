@@ -1,0 +1,54 @@
+/* Main.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.First {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+}
+
+.sidebar {
+  width: 20%; /* Adjust the width as needed */
+  background-color: #f4f4f4; /* Sidebar background color */
+  padding: 1em;
+}
+
+.Content {
+  width: 100%; /* Full width when sidebar is hidden */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.full-page-image {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+/* Main.css */
+.toggle-button {
+  position: fixed; /* Use fixed to position relative to the viewport */
+  top: 1em; /* Space from the top */
+  right: 1em; /* Space from the right */
+  padding: 0.5em 1em;
+  background-color: #7e7e7e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure button is above all other content */
+}
+
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}

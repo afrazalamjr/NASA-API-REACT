@@ -1,0 +1,25 @@
+/* Sidebar.css */
+.sidebar {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  right: 0; /* Move the sidebar to the right */
+  height: 100vh; /* Full viewport height */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.sidebar h2 {
+  margin: 0;
+  padding: 1em;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 1em;
+}
